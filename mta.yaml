@@ -1,3 +1,44 @@
 ID: TEST_22
 _schema-version: '2.1'
 version: 0.0.1
+modules:
+  - name: TEST_22_HDB
+    type: hdb
+    path: TEST_22_HDB
+    requires:
+      - name: hdi_TEST_22_HDB_2
+  - name: web_2
+    type: html5
+    path: web_2
+    requires:
+      - name: UAA-service
+      - name: TEST_22_xsjs_api
+        group: destinations
+        properties:
+          name: TEST_22_xsjs-backend
+          url: '~{url}'
+          forwardAuthToken: true
+  - name: TEST_22_xsjs
+    type: nodejs
+    path: TEST_22_xsjs
+    provides:
+      - name: TEST_22_xsjs_api
+        properties:
+          url: '${default-url}'
+    requires:
+      - name: UAA-service
+      - name: hdi_TEST_22_HDB_2
+      - name: TEST_22_HDB
+resources:
+  - name: hdi_TEST_22_HDB
+    properties:
+      hdi-container-name: '${service-name}'
+    type: com.sap.xs.hdi-container
+  - name: hdi_TEST_22_HDB_2
+    properties:
+      hdi-container-name_2: '${service-name}'
+    type: com.sap.xs.hdi-container
+  - name: UAA-service
+    type: com.sap.xs.uaa-space
+    parameters:
+      config-path: ./xs-security.json

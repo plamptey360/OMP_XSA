@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowgraph:ContainerNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="4f89d7c6d512237b60adcbf9c1e9cd55" name="TEST_22_LIFNR" runtimeBehavior="BATCH_TASK">
+  <annotations key="sap.afm.layout" xmi:id="7a5c953c1ed4d3ecd02b803e2d1d49f0">
+    <annotations xmi:id="f14e3adfed064eeb5f79bd09b53e6ed4" key="x" value="10">
+    </annotations>
+    <annotations xmi:id="0c7280c483f3634efc874a2ac5fa5945" key="y" value="10">
+    </annotations>
+    <annotations xmi:id="a73bc9a4bad17261fdf10f6bb69ac6d7" key="width" value="100">
+    </annotations>
+    <annotations xmi:id="7c2f45b59686b0e11f390fcb54bc297a" key="height" value="84">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="09a0d924c46725785aef538884ea6dc1" key="sap.afm.palette">
+    <annotations xmi:id="a20fcbb172d4eb8100264a138b2c9a55" key="additions" value="">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="0b268a8fd04e6b56adb55d6b97808862" key="sap.afm.nodeType" value="ContainerNode">
+  </annotations>
+  <annotations xmi:id="a1b8d76b069ac23d29ac7eb164cc4397" key="sap.afm.nodeInputs">
+  </annotations>
+  <annotations xmi:id="f88ea059870b16a6bd32af3d8e572e93" key="sap.afm.nodeOutputs">
+  </annotations>
+  <tableMappings xmi:id="4a858d66c5310c8479119357c62e75e2" source="5b11f511faa28da7956f1b39a22f84b1" target="822720d6171db133a705ce376415fecf">
+    <attributeMappings xmi:id="99214aa4ce11f850f002aaf45f83c14f" source="ac03b5cd91f5a7805b7e1bbe787f3f2d" target="dd624c1f70fbfa8514dbd9fc6025195c">
+    </attributeMappings>
+    <attributeMappings xmi:id="3aa5d8ea9f3ca9b2e566e74cd92c7627" source="e3c619c27e52f060e9c188b5e846d589" target="f844d8a4d477de1f4eb8877b9ec67139">
+    </attributeMappings>
+  </tableMappings>
+  <tableMappings xmi:id="b8f9dd50d37386be5f398f6315587ad7" source="ad0448bcf2324660ae4d0c1edbafe360" target="7facec4ea43c157c74315d5a4c62fa12">
+    <attributeMappings xmi:id="31f163fb4e8d606b01cc573edfd0a0cc" source="0bfec9f96078c387f1d900c7a525b060" target="4bc9a89119fc3caac13e8fd5de01bd21">
+    </attributeMappings>
+    <attributeMappings xmi:id="9953f50e26908bd1b895781e5b3d3e59" source="d4b664055e7d0807d1accfae01693218" target="800f624f8dfaf5411bce7f08dd1dfec8">
+    </attributeMappings>
+  </tableMappings>
+  <nodes xmi:id="9778127834d262c63dc9d48c65e32823" name="LIFNR" catalogObjectName="LIFNR" type="DATABASE_TABLE" xsi:type="flowgraph:DataNode" dataLayout="COLUMN">
+    <annotations key="sap.afm.layout" xmi:id="62bc5b0b059f0d006965a985c0b12a03">
+      <annotations xmi:id="8536bede26fd4145ba8bcc3ca2134366" key="x" value="129">
+      </annotations>
+      <annotations xmi:id="a3ff1eaffaae966543be5b457c48cad7" key="y" value="102">
+      </annotations>
+      <annotations xmi:id="7b538b261e3ef3b74a957826c0e9217d" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="1a0350e5826958f4ff418405532f489a" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="425823ac6a9d598093002da36146c829" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="8e493a6db1319795d18d80143a24d167" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="cfc85c2b432b2e25acb9584c5b7529d3" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="fdc5ac6e6667088b1352466201568a22" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="212da96bf4a3722e358b31de38fd2db3" key="sap.afm.displayName" value="Data Source">
+    </annotations>
+    <annotations xmi:id="77ae32c34d595bc953c3d446d0283fa1" key="columns" value="[{&quot;name&quot;:&quot;LIFNR&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:10,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;ac03b5cd91f5a7805b7e1bbe787f3f2d&quot;},{&quot;name&quot;:&quot;BUKRS&quot;,&quot;type&quot;:&quot;NVARCHAR&quot;,&quot;length&quot;:4,&quot;nullable&quot;:&quot;false&quot;,&quot;primarykey&quot;:true,&quot;id&quot;:&quot;e3c619c27e52f060e9c188b5e846d589&quot;}]">
+    </annotations>
+    <annotations xmi:id="7f56889948bfd06a80ca407bd07f717d" key="sap.im.realtime" value="false">
+    </annotations>
+    <annotations xmi:id="4858726de34fc6c5ad5b9ce3cf2be4bc" key="sap.im.tableLevelChange" value="false">
+    </annotations>
+    <outputs xmi:id="5b11f511faa28da7956f1b39a22f84b1" name="LIFNR">
+      <attributes xmi:id="ac03b5cd91f5a7805b7e1bbe787f3f2d" name="LIFNR" type="NVARCHAR" nullable="false" length="10">
+        <annotations xmi:id="63f15fd8e4d06c347748501a0fbbe739" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="e3c619c27e52f060e9c188b5e846d589" name="BUKRS" type="NVARCHAR" nullable="false" length="4">
+        <annotations xmi:id="c42bdeb4a41b1ac944831defd592fcec" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+    </outputs>
+  </nodes>
+  <nodes xmi:id="6b63c708bf7573f8b58ce735d3fd2236" xsi:type="flowgraph:FilterNode" name="Projection">
+    <annotations key="sap.afm.layout" xmi:id="695adca37608cad4741fb0956c559260">
+      <annotations xmi:id="5b98dc8ac48ccc3aaf8458eb8fec3d00" key="x" value="395">
+      </annotations>
+      <annotations xmi:id="8309ac6da1b0a424df2904e341cc0941" key="y" value="115">
+      </annotations>
+      <annotations xmi:id="98086e546d8b4032db7f829b4afe33b6" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="419f0e911dd688645a7d326e75594600" key="height" value="115">
+      </annotations>
+    </annotations>
+    <inputs xmi:id="822720d6171db133a705ce376415fecf" name="Projection_IN">
+      <attributes xmi:id="dd624c1f70fbfa8514dbd9fc6025195c" name="LIFNR" type="NVARCHAR" nullable="false" length="10">
+        <annotations xmi:id="7d5907f76bc487239ab0bae83ddac454" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="f844d8a4d477de1f4eb8877b9ec67139" name="BUKRS" type="NVARCHAR" nullable="false" length="4">
+        <annotations xmi:id="66e40a642a8159180830dbaedafb39af" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+    </inputs>
+    <outputs xmi:id="ad0448bcf2324660ae4d0c1edbafe360" name="Projection_OUT">
+      <attributes xmi:id="0bfec9f96078c387f1d900c7a525b060" name="LIFNR" type="NVARCHAR" nullable="false" expression="&quot;LIFNR&quot;" length="10">
+        <annotations xmi:id="691eb30c4438a7f9ebe566a8525b64ce" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="d4b664055e7d0807d1accfae01693218" name="BUKRS" type="NVARCHAR" nullable="false" expression="&quot;BUKRS&quot;" length="4">
+        <annotations xmi:id="2f2c09baeb625fec313a0aa353c796f9" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+    </outputs>
+  </nodes>
+  <nodes xmi:id="5bde8f21010ef01239dbadadcbcd8c8f" xsi:type="flowgraph:DataNode" name="LIFNR_TARGET" truncateTable="true" catalogObjectName="LIFNR_TARGET" type="TEMPLATE_TABLE">
+    <annotations key="sap.afm.layout" xmi:id="5802b34d5883a3dd3fc6da6d9986102f">
+      <annotations xmi:id="a59ed2830c8302e3e095ba277ee8464d" key="x" value="706">
+      </annotations>
+      <annotations xmi:id="bb90c0bebb105d22a97a82b7cb5b0625" key="y" value="111">
+      </annotations>
+      <annotations xmi:id="b068de8fd6c196551a83ea3da1df1c3e" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="eebfed216819a8fc24a96677b7b25925" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="e3fafb79cd82e90d2a0e1678d80eafc5" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="97ba8d35e9d2672822282714c982a845" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="77d698a908104455407f109d17f6e590" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="d1529f424ed1a171ac4c527c40c38fae" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="58e6faef483e9c4c43e8c14981746347" key="sap.afm.displayName" value="Data Target">
+    </annotations>
+    <annotations xmi:id="adb4146ab60fa266fd70d711429b4d36" key="sap.im.writerType" value="insert">
+    </annotations>
+    <inputs xmi:id="7facec4ea43c157c74315d5a4c62fa12" name="LIFNR_TARGET" kind="TABLE">
+      <attributes xmi:id="4bc9a89119fc3caac13e8fd5de01bd21" name="LIFNR" type="NVARCHAR" nullable="false" length="10">
+        <annotations xmi:id="b657cae6f5f098c3887d3b3a59cc0da3" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+      <attributes xmi:id="800f624f8dfaf5411bce7f08dd1dfec8" name="BUKRS" type="NVARCHAR" nullable="false" length="4">
+        <annotations xmi:id="777ef005300c54c7b58258b1547eb583" key="sap.im.primaryKey" value="true">
+        </annotations>
+      </attributes>
+    </inputs>
+  </nodes>
+</flowgraph:ContainerNode>
